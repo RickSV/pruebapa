@@ -1,0 +1,261 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.titulo{
+	position: relative;
+	top: 60px;
+	left: 700px;
+	width: 700px;
+	/*background: #fff;*/
+}
+
+.titulo1{
+	position: relative;
+	top: 60px;
+	left: 600px;
+	width: 700px;
+	/*background: #fff;*/
+}
+
+.titulo2{
+	position: relative;
+	top: 60px;
+	left: 650px;
+	width: 700px;
+	/*background: #fff;*/
+}
+
+.titulo3{
+	position: relative;
+	top: 60px;
+	left: 790px;
+	width: 700px;
+	/*background: #fff;*/
+}
+
+.titulo4{
+	position: relative;
+	top: 60px;
+	left: 750px;
+	width: 700px;
+	/*background: #fff;*/
+}
+
+.boton{
+	position: relative;
+	top: 60px;
+	left: 270px;
+	width: 200px;
+	height: 200px;
+	border: 1px solid #0628AE;
+	font-family: "DejaVu Serif", Georgia, "serif";
+	font-size: 20px;
+	text-align: center;
+	padding: 30px;
+	color: #0628AE;
+}
+
+.boton1{
+	position: relative;
+	top: 60px;
+	left: 250px;
+	width: 300px;
+	height: 200px;
+	border: 1px solid #0628AE;
+	font-family: "DejaVu Serif", Georgia, "serif";
+	font-size: 20px;
+	text-align: center;
+	padding: 30px;
+	color: #0628AE;
+}
+
+.txt .boton  a:hover {
+	background: #1a95d5;
+	color: #000;
+}
+
+.txt{
+	position: relative;
+	top: 90px;
+	left: 450px;
+	display:inline-block;
+	width: 800px;
+	height: 890px;
+	background: #fff;
+	padding: 25px;
+}
+
+.txt1{
+	position: relative;
+	top: 90px;
+	left: 450px;
+	display:inline-block;
+	width: 800px;
+	height: 4380px;
+	background: #fff;
+	padding: 25px;
+}
+
+.txt2{
+	position: relative;
+	top: 90px;
+	left: 450px;
+	display:inline-block;
+	width: 800px;
+	height: 980px;
+	background: #fff;
+	padding: 25px;
+}
+
+
+
+.uno {
+	font-family: "DejaVu Serif", Georgia, "serif";
+	font-size: 25px;
+	text-align: center;
+}
+
+.dos {
+	font-family: "DejaVu Serif", Georgia, "serif";
+	font-size: 15px;
+	text-align: left;
+}
+
+.tres {
+	font-family: "DejaVu Serif", Georgia, "serif";
+	font-size: 15px;
+	float:left;
+}
+
+
+
+div p{
+	font-family: "DejaVu Serif", Georgia, "serif";
+	font-size: 20px;
+}
+
+div h2{
+	font-family: "DejaVu Serif", Georgia, "serif";
+	font-size: 40px;
+}
+
+div h1 {
+	padding-top:  80px;
+	font-family: "DejaVu Serif", Georgia, "serif";
+	font-size: 90px;
+}
+
+hr {
+	border: 1px solid #B55201;
+}
+
+body {
+	background: #F78B37;
+	font-family: 'Roboto', sans-serif;
+	line-height: 18px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.btn-menu {
+	display: none;
+	padding: 20px;
+	background: #0d2c44;
+	color:#fff;
+}
+
+.btn-menu .icono {
+	float: right;
+}
+
+.contenedor-menu {
+	
+	position:absolute;
+	top: 210px;
+	left: 50px;
+	width: 20%;
+	min-width: 150px;
+	margin: 50px;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	line-height: 18px;
+}
+
+.contenedor-menu .menu {
+	width: 100%;
+}
+
+.contenedor-menu ul {
+	list-style: none;
+}
+
+.contenedor-menu .menu li a{
+	color: #494949;
+	display: block;
+	padding: 15px 20px;
+	background: #e9e9e9;
+}
+
+.contenedor-menu .menu li a:hover {
+	background: #1a95d5;
+	color: #fff;
+}
+
+.contenedor-menu .menu .icono {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.contenedor-menu .menu .icono.izquierda {
+	float: left;
+	margin-right: 10px;
+}
+
+.contenedor-menu .menu .icono.derecha {
+	float: right;
+	margin-left: 10px;
+}
+
+.contenedor-menu .menu ul{
+	display: none;
+}
+
+.contenedor-menu .menu ul li a{
+	background: #424242;
+	color: #E9E9E9;
+}
+
+.contenedor-menu .menu .activado > a {
+	background: #1a95d5;
+	color: #fff;
+}
+
+@media screen and (max-width: 450px) {
+	body{
+		padding-top: 80px;
+	}
+	
+	.contenedor-menu {
+		margin: 0;
+		width: 100%;
+		position: fixed;
+		top: 0;
+		z-index: 1000;
+	}
+	
+	.btn-menu {
+		display: block;
+	}
+	
+	.contenedor-menu .menu {
+		display: none;
+	}
+} 
